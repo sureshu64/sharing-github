@@ -26,6 +26,9 @@ print(volume)
 returns = price.pct_change()
 print(returns.tail())
 
+# inserted this commment to test the github
+# the following code will find the correlation between MSFT and IBM
+
 print("\nCorrelation between MSFT and IBM %.2f " % returns['MSFT'].corr(returns['IBM']))
 print("\nCovariance between MSFT and IBM %.5f " % returns['MSFT'].cov(returns['IBM']))
 
